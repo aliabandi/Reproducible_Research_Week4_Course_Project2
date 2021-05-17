@@ -496,7 +496,7 @@ ggplot(plotHealth, aes(x = reorder(EVTYPE, -value), y = value)) + geom_bar(stat 
         "Injuries", "Fatalities"))
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](figure/f1.png) 
 
 
 Looking at the above plot, we can deduce the following conclusions.
@@ -651,7 +651,7 @@ ggplot(plotHealth, aes(x = reorder(EVTYPE, -value), y = value)) + geom_bar(stat 
         "Property Damage", "Crop Damage"))
 ```
 
-![plot of chunk unnamed-chunk-21](figure/unnamed-chunk-21.png) 
+![plot of chunk unnamed-chunk-21](figure/f2.png) 
 
 
 Looking at the above plot, we can deduce the following conclusions.
@@ -717,7 +717,7 @@ grid.arrange(arrangeGrob(g1, g2, g3, g4, ncol = 2, nrow = 2), main = textGrob("F
     gp = gpar(fontsize = 20, font = 3)))
 ```
 
-![plot of chunk unnamed-chunk-22](figure/unnamed-chunk-22.png) 
+![plot of chunk unnamed-chunk-22](figure/f3.png) 
 
 Looking at the above plot, we can deduce the following conclusions.
 ```
