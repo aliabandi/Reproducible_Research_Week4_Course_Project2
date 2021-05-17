@@ -59,7 +59,7 @@ library(pander)
 Here we set the working directory as required, it can be changed according to your preference in your personal computer.
 
 ```r
-setwd("E:/MOOCs/Coursera/Data Science - Specialization/Reproducible Research/Peer Assessment 2")
+setwd("C:/Users/abandi/Desktop/Coursera/Data Science Course/Reproducible Research/Course Project 2")
 ```
 
 
